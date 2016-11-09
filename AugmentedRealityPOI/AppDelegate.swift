@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AugmentedRealityPOI
 //
-//  Created by medialis.net on 09/11/2016.
+//  Created by Fares Ben Hamouda on 09/11/2016.
 //  Copyright © 2016 Fares Ben Hamouda. All rights reserved.
 //
 
