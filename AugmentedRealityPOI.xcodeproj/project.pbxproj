@@ -12,6 +12,7 @@
 		279A0E971DD339B900AED72E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A0E961DD339B900AED72E /* ViewController.swift */; };
 		279A0E9A1DD339B900AED72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279A0E981DD339B900AED72E /* Main.storyboard */; };
 		279A0E9C1DD339B900AED72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279A0E9B1DD339B900AED72E /* Assets.xcassets */; };
+		279A0EAA1DD34F6E00AED72E /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A0EA91DD34F6E00AED72E /* TestAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		279A0E991DD339B900AED72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279A0E9B1DD339B900AED72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279A0EA01DD339B900AED72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279A0EA91DD34F6E00AED72E /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotationView.swift; sourceTree = "<group>"; };
 		B67EE9385B5330C55C4E9055 /* Pods-AugmentedRealityPOI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityPOI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityPOI/Pods-AugmentedRealityPOI.debug.xcconfig"; sourceTree = "<group>"; };
 		C18D7BA0C334AD67E17D9642 /* Pods-AugmentedRealityPOI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityPOI.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityPOI/Pods-AugmentedRealityPOI.release.xcconfig"; sourceTree = "<group>"; };
 		FA6DE977534E01BED9AAADF8 /* Pods_AugmentedRealityPOI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentedRealityPOI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 		279A0EA81DD339CC00AED72E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				279A0EA91DD34F6E00AED72E /* TestAnnotationView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279A0E971DD339B900AED72E /* ViewController.swift in Sources */,
+				279A0EAA1DD34F6E00AED72E /* TestAnnotationView.swift in Sources */,
 				279A0E951DD339B900AED72E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
